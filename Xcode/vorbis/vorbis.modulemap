@@ -1,0 +1,14 @@
+
+framework module SDL [extern_c] [system] {
+  umbrella header "vorbisfile.h"
+
+  export *
+  module * { export * }
+  
+  explicit module enc {
+	header "vorbisenc.h"
+	export *
+  }
+  
+}
+
