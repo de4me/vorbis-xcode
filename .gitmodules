@@ -1,0 +1,3 @@
+[submodule "submodules/ogg"]
+	path = submodules/ogg
+	url = https://github.com/de4me/ogg-xcode.git
