@@ -59,3 +59,13 @@ CMakeSettings.json
 
 .vs/
 .vscode/
+
+# for Xcode
+*.mode1*
+*.perspective*
+*.pbxuser
+(^|/)build($|/)
+.DS_Store
+**/xcuserdata/
+
+!Xcode/vorbis/include/config.h
