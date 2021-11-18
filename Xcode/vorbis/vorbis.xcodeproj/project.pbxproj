@@ -85,6 +85,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD1B52B72746305E00BE06B4 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = config.h; path = include/config.h; sourceTree = "<group>"; };
 		BD6D7F3727458FB7001A64F4 /* vorbis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = vorbis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCA1E5627458D63007BE787 /* ogg.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ogg.xcodeproj; path = ../../submodules/ogg/Xcode/ogg/ogg.xcodeproj; sourceTree = "<group>"; };
 		BDF4351927458794007872F8 /* libvorbis.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libvorbis.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,7 +106,6 @@
 		BDF4353827458B25007872F8 /* residue_44.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = residue_44.h; sourceTree = "<group>"; };
 		BDF4353927458B25007872F8 /* setup_16.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = setup_16.h; sourceTree = "<group>"; };
 		BDF4353A27458B25007872F8 /* setup_22.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = setup_22.h; sourceTree = "<group>"; };
-		BDF4353B27458B25007872F8 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
 		BDF4353C27458B25007872F8 /* psych_16.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = psych_16.h; sourceTree = "<group>"; };
 		BDF4353D27458B25007872F8 /* psych_8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = psych_8.h; sourceTree = "<group>"; };
 		BDF4353E27458B25007872F8 /* setup_44p51.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = setup_44p51.h; sourceTree = "<group>"; };
@@ -131,12 +131,9 @@
 		BDF4355327458B25007872F8 /* lsp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lsp.h; sourceTree = "<group>"; };
 		BDF4355427458B25007872F8 /* bitrate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bitrate.c; sourceTree = "<group>"; };
 		BDF4355527458B25007872F8 /* registry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = registry.h; sourceTree = "<group>"; };
-		BDF4355827458B25007872F8 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
 		BDF4355927458B25007872F8 /* res_books_uncoupled.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = res_books_uncoupled.h; sourceTree = "<group>"; };
 		BDF4355C27458B25007872F8 /* res_books_51.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = res_books_51.h; sourceTree = "<group>"; };
 		BDF4355D27458B25007872F8 /* res_books_stereo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = res_books_stereo.h; sourceTree = "<group>"; };
-		BDF4355E27458B25007872F8 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		BDF4356027458B25007872F8 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
 		BDF4356127458B25007872F8 /* floor_books.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = floor_books.h; sourceTree = "<group>"; };
 		BDF4356227458B25007872F8 /* psy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = psy.c; sourceTree = "<group>"; };
 		BDF4356327458B25007872F8 /* lpc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lpc.h; sourceTree = "<group>"; };
@@ -203,6 +200,7 @@
 		BDF4351027458794007872F8 = {
 			isa = PBXGroup;
 			children = (
+				BD1B52B72746305E00BE06B4 /* config.h */,
 				BDCA1E5627458D63007BE787 /* ogg.xcodeproj */,
 				BDF43520274589C1007872F8 /* include */,
 				BDF4352A27458B25007872F8 /* lib */,
@@ -306,7 +304,6 @@
 				BDF4353827458B25007872F8 /* residue_44.h */,
 				BDF4353927458B25007872F8 /* setup_16.h */,
 				BDF4353A27458B25007872F8 /* setup_22.h */,
-				BDF4353B27458B25007872F8 /* Makefile.am */,
 				BDF4353C27458B25007872F8 /* psych_16.h */,
 				BDF4353D27458B25007872F8 /* psych_8.h */,
 				BDF4353E27458B25007872F8 /* setup_44p51.h */,
@@ -334,7 +331,6 @@
 		BDF4355727458B25007872F8 /* uncoupled */ = {
 			isa = PBXGroup;
 			children = (
-				BDF4355827458B25007872F8 /* Makefile.am */,
 				BDF4355927458B25007872F8 /* res_books_uncoupled.h */,
 			);
 			path = uncoupled;
@@ -345,7 +341,6 @@
 			children = (
 				BDF4355C27458B25007872F8 /* res_books_51.h */,
 				BDF4355D27458B25007872F8 /* res_books_stereo.h */,
-				BDF4355E27458B25007872F8 /* Makefile.am */,
 			);
 			path = coupled;
 			sourceTree = "<group>";
@@ -353,7 +348,6 @@
 		BDF4355F27458B25007872F8 /* floor */ = {
 			isa = PBXGroup;
 			children = (
-				BDF4356027458B25007872F8 /* Makefile.am */,
 				BDF4356127458B25007872F8 /* floor_books.h */,
 			);
 			path = floor;
