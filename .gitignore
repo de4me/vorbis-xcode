@@ -69,3 +69,4 @@ CMakeSettings.json
 **/xcuserdata/
 
 !Xcode/vorbis/include/config.h
+Xcode/vorbis/Headers/
