@@ -68,5 +68,5 @@ CMakeSettings.json
 .DS_Store
 **/xcuserdata/
 
-!Xcode/vorbis/include/config.h
+!Xcode/vorbis/vorbis/config.h
 Xcode/vorbis/Headers/
