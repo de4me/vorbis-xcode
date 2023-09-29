@@ -1,0 +1,10 @@
+
+framework module vorbis [system] [extern_c] {
+    
+  umbrella header "vorbis.h"
+
+  export *
+  module * { export * }
+  
+}
+
