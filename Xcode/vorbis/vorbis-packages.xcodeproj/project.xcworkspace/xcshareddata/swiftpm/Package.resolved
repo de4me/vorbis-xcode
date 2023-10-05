@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "ogg-xcode",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/de4me/ogg-xcode",
+      "state" : {
+        "branch" : "master",
+        "revision" : "7f58ba60bc13202e29b4d67dad5686149a947bc9"
+      }
+    }
+  ],
+  "version" : 2
+}
