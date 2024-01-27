@@ -88,8 +88,8 @@
 		BD858D872AC9A5530084BA79 /* mapping0.c in Sources */ = {isa = PBXBuildFile; fileRef = BDF4357127458B25007872F8 /* mapping0.c */; };
 		BD858D882AC9A5530084BA79 /* registry.c in Sources */ = {isa = PBXBuildFile; fileRef = BDF4357727458B25007872F8 /* registry.c */; };
 		BD858D892AC9A5530084BA79 /* synthesis.c in Sources */ = {isa = PBXBuildFile; fileRef = BDF4356C27458B25007872F8 /* synthesis.c */; };
-		BDB9AF3F2ACF25FA00F78BFE /* ogg in Frameworks */ = {isa = PBXBuildFile; productRef = BDB9AF3E2ACF25FA00F78BFE /* ogg */; };
-		BDB9AF412ACF260D00F78BFE /* ogg in Frameworks */ = {isa = PBXBuildFile; productRef = BDB9AF402ACF260D00F78BFE /* ogg */; };
+		BD9B63332B6525B80056E1B6 /* ogg in Frameworks */ = {isa = PBXBuildFile; productRef = BD9B63322B6525B80056E1B6 /* ogg */; };
+		BD9B63352B6525CA0056E1B6 /* ogg in Frameworks */ = {isa = PBXBuildFile; productRef = BD9B63342B6525CA0056E1B6 /* ogg */; };
 		BDCA1E3F27458B8C007BE787 /* analysis.c in Sources */ = {isa = PBXBuildFile; fileRef = BDF4354E27458B25007872F8 /* analysis.c */; };
 		BDCA1E4027458B94007BE787 /* bitrate.c in Sources */ = {isa = PBXBuildFile; fileRef = BDF4355427458B25007872F8 /* bitrate.c */; };
 		BDCA1E4127458B9B007BE787 /* block.c in Sources */ = {isa = PBXBuildFile; fileRef = BDF4352E27458B25007872F8 /* block.c */; };
@@ -205,7 +205,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDB9AF3F2ACF25FA00F78BFE /* ogg in Frameworks */,
+				BD9B63332B6525B80056E1B6 /* ogg in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +220,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDB9AF412ACF260D00F78BFE /* ogg in Frameworks */,
+				BD9B63352B6525CA0056E1B6 /* ogg in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,7 +478,7 @@
 			);
 			name = vorbis;
 			packageProductDependencies = (
-				BDB9AF3E2ACF25FA00F78BFE /* ogg */,
+				BD9B63322B6525B80056E1B6 /* ogg */,
 			);
 			productName = vorbis;
 			productReference = BD6D7F3727458FB7001A64F4 /* vorbis.framework */;
@@ -520,7 +520,7 @@
 			);
 			name = "vorbis-iOS";
 			packageProductDependencies = (
-				BDB9AF402ACF260D00F78BFE /* ogg */,
+				BD9B63342B6525CA0056E1B6 /* ogg */,
 			);
 			productName = vorbis;
 			productReference = BD858D902AC9A5530084BA79 /* vorbis.framework */;
@@ -573,7 +573,7 @@
 			);
 			mainGroup = BDF4351027458794007872F8;
 			packageReferences = (
-				BDB9AF3D2ACF25E000F78BFE /* XCRemoteSwiftPackageReference "ogg-xcode" */,
+				BD9B63312B6525B80056E1B6 /* XCRemoteSwiftPackageReference "ogg-package" */,
 			);
 			productRefGroup = BDF4351A27458794007872F8 /* Products */;
 			projectDirPath = "";
@@ -1135,6 +1135,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		BD9B63312B6525B80056E1B6 /* XCRemoteSwiftPackageReference "ogg-package" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/de4me/ogg-package";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.5;
+			};
+		};
 		BDB9AF3D2ACF25E000F78BFE /* XCRemoteSwiftPackageReference "ogg-xcode" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/de4me/ogg-xcode";
@@ -1146,14 +1154,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		BDB9AF3E2ACF25FA00F78BFE /* ogg */ = {
+		BD9B63322B6525B80056E1B6 /* ogg */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = BDB9AF3D2ACF25E000F78BFE /* XCRemoteSwiftPackageReference "ogg-xcode" */;
+			package = BD9B63312B6525B80056E1B6 /* XCRemoteSwiftPackageReference "ogg-package" */;
 			productName = ogg;
 		};
-		BDB9AF402ACF260D00F78BFE /* ogg */ = {
+		BD9B63342B6525CA0056E1B6 /* ogg */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = BDB9AF3D2ACF25E000F78BFE /* XCRemoteSwiftPackageReference "ogg-xcode" */;
+			package = BD9B63312B6525B80056E1B6 /* XCRemoteSwiftPackageReference "ogg-package" */;
 			productName = ogg;
 		};
 		BDB9AF422ACF268B00F78BFE /* ogg */ = {
